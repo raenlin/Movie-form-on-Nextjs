@@ -3,6 +3,9 @@
   --foreground: #171717;
   --label-color: #4d4d4d;
   --select-color: #737373;
+  --border-grey: #c0c0c0;
+  --error-color: #c24a31;
+  --valid-color: #31c24a;
 }
 
 html,

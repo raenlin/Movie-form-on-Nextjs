@@ -1,0 +1,26 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title h1 {
+  max-width: 560px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.button_reset {
+  cursor: pointer;
+  background-color: white;
+  width: 225px;
+  height: 48px;
+  border: 1px solid var(--border-grey);
+  border-radius: 30px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button_reset:hover {
+    background-color: var(--border-grey);
+  }
+}
