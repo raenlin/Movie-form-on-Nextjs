@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input,
+.form select {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 54px;
+  max-width: 498px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+
+.form textarea {
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form textarea,
+.form label,
+.form select {
+  font-family: inherit;
+  max-width: 498px;
+}
+
+.form label {
+  font-size: 0.9rem;
+  color: var(--label-color);
+}
+
+.form select {
+  color: var(--select-color);
+}
+
+/* input:required:valid,
+input:valid {
+  border: 2px solid green;
+} */
