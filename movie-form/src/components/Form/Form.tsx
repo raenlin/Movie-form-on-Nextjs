@@ -1,9 +1,9 @@
 import styles from './Form.module.css';
 import { FormProps } from './Form.type';
 
-function Form({ register, handleSubmit, errors }: FormProps) {
+function Form({ register, errors }: FormProps) {
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
+    <form className={styles.form}>
       <div>
         <label htmlFor="name">Название проекта</label>
         <input
@@ -60,7 +60,6 @@ function Form({ register, handleSubmit, errors }: FormProps) {
           rows={8}
         />
       </div>
-      <button>Submit</button>
     </form>
   );
 }

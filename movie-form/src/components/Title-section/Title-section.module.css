@@ -24,3 +24,23 @@
     background-color: var(--border-grey);
   }
 }
+
+@media (max-width: 1000px) {
+  .title h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .title {
+    text-align: center;
+    flex-direction: column;
+  }
+  .title h1 {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+  }
+  .button_reset {
+    width: 180px;
+  }
+}

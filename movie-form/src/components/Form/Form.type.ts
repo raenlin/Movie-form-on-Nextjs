@@ -9,6 +9,5 @@ export type MovieForm = {
 
 export type FormProps = {
   register: UseFormRegister<MovieForm>;
-  handleSubmit: (event: React.FormEvent<HTMLFormElement>) => void;
   errors: FieldErrors<MovieForm>;
 };
