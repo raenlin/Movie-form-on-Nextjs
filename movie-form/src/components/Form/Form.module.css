@@ -46,8 +46,8 @@
   color: var(--select-color);
 }
 
-input:required:valid,
-select:required:valid {
+.form input:required:valid,
+.form select:required:valid {
   border: 2px solid var(--valid-color);
 }
 
