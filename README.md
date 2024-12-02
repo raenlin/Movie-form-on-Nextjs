@@ -1,6 +1,6 @@
 ## Movie Form
 
-Deploy: [LINK](https://movie-form-thinkopp.netlify.app/)
+Deploy: [LINK](https://movie-form-thinkopp.netlify.app/) 
 Description: simple form on Nextjs with validation and saving data to localstorage
 
 ### Getting Started
